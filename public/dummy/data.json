@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "name": "Alumno01",
+        "state": "OK"
+    },
+    {
+        "id":"2",
+        "name": "Alumno02",
+        "state": "OK"
+    },
+    {
+        "id":"3",
+        "name": "Alumno03",
+        "state": "OK"
+    },
+    {
+        "id":"4",
+        "name": "Alumno04",
+        "state": "NOT OK"
+    },
+    {
+        "id":"5",
+        "name": "Alumno05",
+        "state": "OK"
+    }
+]

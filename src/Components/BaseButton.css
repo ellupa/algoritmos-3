@@ -1,0 +1,13 @@
+.base-button{
+    color: whitesmoke;
+    background-color: rgb(64, 64, 255);
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+
+    transition: .7s;
+}
+
+.base-button:hover{
+    filter: brightness(1.1);
+}
