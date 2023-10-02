@@ -1,26 +1,29 @@
-import React, { Fragment, useEffect, useState } from "react";
-import Start from "./Start/Start.jsx";
-import DataGrid from "./DataGrid/DataGrid.jsx";
+import React, { useState } from "react";
+
+
+//Componentes
+import TopBar from "../Components/TopBar/TopBar.jsx";
+
+//Vistas
+import Home from "../Pages/Home/Home.jsx";
+
 
 
 function App() {
 
-  const [dummyData, setDummyData] = useState([]);
 
-  useEffect(() => {
-    console.log(dummyData);
-  }, []);
+  const [actualFrame, setActualFrame] = useState(null);
+  
+
+
 
   return (
-    <Fragment>
+    <>
+      <TopBar setActualFrame={setActualFrame}/>
       {
-        true ? 
-          <Start setDummyData={setDummyData} test={"Esto es una prueba de pasaje."}/>
-        :
-          <DataGrid dummyData={dummyData}/>
+        actualFrame
       }
-    </Fragment>
-
+    </>
   );
 }
 
