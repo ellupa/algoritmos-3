@@ -3,6 +3,7 @@ import "./TopBar.css";
 
 import Home from "../../Pages/Home/Home.jsx";
 import TestPage from "../../Pages/TestPage/TestPage.jsx";
+import Pagina1 from "../../Pages/Pagina1/Pagina1.jsx";
 import { useEffect } from "react";
 
 const MENU_ITEMS = [
@@ -13,6 +14,10 @@ const MENU_ITEMS = [
     {
         page: <TestPage />,
         title: 'Test'
+    },
+    {
+        page : <Pagina1 />,
+        title: 'pagina1'
     }
 ];
 
